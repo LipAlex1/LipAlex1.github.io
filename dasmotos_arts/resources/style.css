@@ -1,0 +1,48 @@
+/* General styling rules */
+
+* {
+  font-family: Helvetica;
+}
+
+h2 {
+  font-size: 16px; /*half the size of the articles heading size*/
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Head section styling */
+
+#header {
+  color: khaki;
+  font-size: 80px; /*deviating from the spec of 100px */
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../resources/pictures/pattern.jpeg);
+}
+
+#header h1 {
+  margin: 30px 0 0 0;
+}
+
+/* Article heading styling */
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes header {
+  background-color: mediumspringgreen;
+}
+
+#frames header {
+  background-color: lightcoral;
+}
+
+#paint header {
+  background-color: skyblue;
+}
